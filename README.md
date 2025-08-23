@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 뚜두뚜두 (TuduTudu)
 
 > 리듬감 있게 정리하는 반복 할 일 관리 도우미  
@@ -135,3 +136,6 @@
 - **라우팅**: React Router v6  
 - **스타일링**: styled-components v6 + styled-reset + TailwindCSS  
 - **타입 지원**: @types/styled-components
+=======
+ㅈㅈ
+>>>>>>> e0afc3088d3d6a216d7e95220badb387c4ccfd84
