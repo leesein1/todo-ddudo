@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+dist-ssr/
+out/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Local environment files (보안 ⚠️)
+.env
+.env.*
+!.env.example   # 예시용 env 파일만 허용
+
+# Local development
+*.local
+.cache/
+.parcel-cache/
+coverage/
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Firebase / Hosting 관련 (보안 ⚠️)
+.firebaserc
+.firebase/
+firebase-debug.log
+
+# Optional lock files (필요에 따라 제외)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
