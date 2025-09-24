@@ -13,9 +13,6 @@ export default function LeftNav() {
                 <NavLink to="/todos" className={link}>Todos</NavLink>
                 <NavLink to="/settings" className={link}>Settings</NavLink>
             </nav>
-            <h1 className="text-3xl font-bold underline text-blue-500">
-                Hello Tailwind!
-            </h1>
         </aside>
         
     );
