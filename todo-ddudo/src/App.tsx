@@ -8,6 +8,7 @@ import "./index.css";
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 const Login = lazy(() => import("./pages/Login.tsx"));
 const Signup = lazy(() => import("./pages/Signup.tsx"));
+const Main = lazy(() => import("./pages/Main.tsx"));
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -36,7 +37,7 @@ export default function App() {
 
           {/* 로그인 후 메인 레이아웃 */}
           <Route element={<Layout />}>
-            {/* <Route index element={<Home />} /> */}
+            <Route path="/main" element={<Main />} />
           </Route>
 
           {/* 404 */}
